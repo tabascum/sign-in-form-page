@@ -39,7 +39,7 @@ main {
   flex-direction: column;
   justify-content: center;
   background-color: var(--dark);
-  max-width: 50%;
+  max-width: 55%;
   border-radius: 0.5rem;
   padding: 3rem;
   box-shadow: 0rem 0rem 0.9rem var(--dark);
@@ -86,7 +86,7 @@ p a {
   color: var(--blue);
 }
 
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 13    00px) {
   body {
     display: flex;
     flex-direction: column;
@@ -99,9 +99,14 @@ p a {
   }
 
   main {
-    display: inherit;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 80%;
   }
-} */
+
+  .form {
+    min-width: 80%;
+    margin-top: 25%;
+  }
+}
