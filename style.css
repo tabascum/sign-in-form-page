@@ -39,7 +39,7 @@ main {
   flex-direction: column;
   justify-content: center;
   background-color: var(--dark);
-  max-width: 55%;
+  max-width: 60%;
   border-radius: 0.5rem;
   padding: 3rem;
   box-shadow: 0rem 0rem 0.9rem var(--dark);
@@ -86,7 +86,7 @@ p a {
   color: var(--blue);
 }
 
-@media screen and (max-width: 13    00px) {
+@media screen and (max-width: 1300px) {
   body {
     display: flex;
     flex-direction: column;
@@ -103,10 +103,13 @@ p a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background: no-repeat
+      url("./img/builder-puts-the-tiles-on-the-floor-the-repair.jpg");
+    background-size: cover;
   }
 
   .form {
-    min-width: 80%;
-    margin-top: 25%;
+    min-width: 60%;
   }
 }
