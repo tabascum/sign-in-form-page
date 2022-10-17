@@ -53,8 +53,13 @@ form {
   gap: 0.5rem;
 }
 
-button,
 input {
+  padding: 0 .5rem;
+  outline: none;
+}
+
+input,
+button {
   font-size: 1rem;
   border: 1px solid transparent;
   border-radius: 0.5rem;
@@ -111,7 +116,7 @@ p a {
   }
 
   .form {
-    max-width: 80%;
+    max-width: 70%;
   }
 }
 
