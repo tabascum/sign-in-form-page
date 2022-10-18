@@ -16,7 +16,7 @@ userName.oninput = () => {
 };
 
 password.oninput = () => {
-  if (password.value.length !== 7) {
+  if (password.value.length < 7) {
     passwordLabel.setAttribute("style", "color: red");
     passwordLabel.innerHTML = "password * should have at least 7 characters";
   } else {
@@ -24,3 +24,9 @@ password.oninput = () => {
     passwordLabel.innerHTML = "password" + " " + "&#10003";
   }
 };
+
+/* RegExp Pattern
+
+/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+
+*/

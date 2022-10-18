@@ -53,6 +53,14 @@ form  {
   gap: 0.5rem;
 }
 
+.form-group {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+
+}
+
 label {
   line-height: 1rem;
 }
@@ -95,7 +103,7 @@ p a {
   color: var(--blue);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   body {
     display: flex;
     flex-direction: column;
@@ -120,11 +128,17 @@ p a {
   }
 
   .form {
-    max-width: 70%;
+    max-width: 40%;
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 900px) {
   .form {
-    max-width: 80%;
+    max-width: 60%;
+  }
+
+
+@media (max-width: 620px) {
+  .form {
+    max-width: 75%;
   }
