@@ -45,12 +45,16 @@ main {
   box-shadow: 0rem 0rem 0.9rem var(--dark);
 }
 
-form {
+form  {
   display: inherit;
   flex-direction: column;
   justify-content: center;
   padding-top: 0.8rem;
   gap: 0.5rem;
+}
+
+label {
+  line-height: 1rem;
 }
 
 input {
